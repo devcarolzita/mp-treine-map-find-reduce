@@ -1,6 +1,6 @@
 # Nome do Mini Projeto
 
-Um mini-projeto interativo onde o usuário pode criar drinks selecionando frutas e destilados de sua escolha, como também realizar a contagem de calorias. A ideia é você exercitar de forma prática funções como filter, map, reduce e find! 
+Um mini-projeto mais focado em exercícios para treinar o uso de map, find e reduce! 
 
 ## 🤓 Antes de começar
 
