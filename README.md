@@ -1,4 +1,4 @@
-# Nome do Mini Projeto
+# Treine map(), find() e reduce()
 
 Um mini-projeto mais focado em exercícios para treinar o uso de map, find e reduce! 
 
