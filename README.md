@@ -10,7 +10,7 @@ Para começar o projeto, utilize a seguinte estrutura já do repositório:
 
 `styles.css`: Estilização dos elementos.
 
-`data.js`: Arquivo contendo os dados dos produtos (nome, preço, imagem e imagem de fundo).
+`data.js`: Arquivo contendo os dados dos produtos.
 
 E crie o seguinte arquivo para exercício:
 
