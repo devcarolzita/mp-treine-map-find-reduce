@@ -1,51 +1,55 @@
 # Nome do Mini Projeto
 
-(um parágrafo explicando)
+Um mini-projeto interativo onde o usuário pode criar drinks selecionando frutas e destilados de sua escolha, como também realizar a contagem de calorias. A ideia é você exercitar de forma prática funções como filter, map, reduce e find! 
 
 ## 🤓 Antes de começar
 
-(Coloque aqui algum setup / boilerplate e explicações se houver. Se não houver, essa seção pode ser apagada)
+Para começar o projeto, utilize a seguinte estrutura já do repositório:
+
+`index.html`: Página principal do projeto.
+
+`styles.css`: Estilização dos elementos.
+
+`data.js`: Arquivo contendo os dados dos produtos (nome, preço, imagem e imagem de fundo).
+
+E crie o seguinte arquivo para exercício:
+
+`script.js`: Arquivo JavaScript para controlar a lógica de interação e manipulação dos elementos.
+
 
 ## 🔨 Requisitos
 
-- Requisito 1
-- Requisito 2
+###  Requisito 1 - Criador de Drinks
+Crie a funcionalidade de buscar um drink no array de receitas utilizando o método find.
+- O usuário deve poder selecionar uma fruta e um destilado de dois `<select>`.
+- Ao clicar no botão "Criar Drink", o resultado (nome e descrição do drink ou mensagem de erro) deve ser exibido no DOM.
 
-	> 👀 **Dicas:**
-	> - Dica A sobre Req 2.
-	> - Dica B sobre Req 2.
 
-- Requisito 3
-- ...
+### Requisito 2 - Seleção de alimentos
+Crie a funcionalidade para filtrar alimentos por categoria.
+- O usuário deve selecionar uma categoria no dropdown (ex: "Frutas", "Lanches") e os alimentos correspondentes devem ser exibidos dinamicamente.
+- Se a categoria "Todos" for selecionada, todos os alimentos devem ser exibidos.
 
-## 🔨 Desafio extra para quem quer ir além
 
-(Essa seção é opcional)
+### Requisito 3 - Calculadora de calorias
+Desenvolva uma calculadora de calorias onde ao clicar 
+- Cada alimento deve ter uma funcionalidade de clique que permita adicioná-lo à contagem total de calorias.
+- Atualizar dinamicamente o valor total de calorias exibido no rodapé da página.
+- Permitir ao usuário remover itens selecionados da contagem total
 
-- Requisito extra 1. 
-- Requisito extra 2.
+> 👀 **Dicas:**
+> O reduce pode te ajudar nesse requisito.
 
-## 🎨 Design Sugerido
-
-Temos uma sugestão de design no Figma. Entretanto, fique à vontade para montar a aplicação conforme a sua criatividade.
-
-### Figma
-
-🔗 [Link do design]()
 
 ## 👉🏽 Sobre esse mini-projeto
 
 ### O que você irá praticar:
 
-#### React
+## JavaScript
+- Manipulação do DOM com JavaScript
+- Interação dinâmica com os dados (exibição de imagens e informações)
+- Uso de funções de manipulação de arrays (Find, Map e Reduce)
 
-- Habilidade 1 do React
-- Habilidade 2
-
-#### TailwindCSS
-
-- Habilidade 1 do TailwindCSS
-
-### Pré requisitos
-
-(coloque aqui se houver algum)
+## Pré requisitos
+Conhecimento básico de HTML, CSS e JavaScript.
+Noções sobre como manipular elementos do DOM e adicionar eventos com JavaScript.
