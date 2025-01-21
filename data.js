@@ -92,68 +92,69 @@ export const foods = [
 ];
 
 
+
 export const drinks = [
   {
     id: 1,
-    fruta: "limão",
-    destilado: "rum",
-    nome: "Daiquiri",
-    descricao: "Um clássico refrescante com rum e suco de limão."
+    fruit: "limão",
+    distilled: "rum",
+    name: "Daiquiri",
+    description: "Um clássico refrescante com rum e suco de limão."
   },
   {
     id: 2,
-    fruta: "laranja",
-    destilado: "vodka",
-    nome: "Screwdriver",
-    descricao: "Uma mistura simples e deliciosa de vodka com suco de laranja."
+    fruit: "laranja",
+    distilled: "vodka",
+    name: "Screwdriver",
+    description: "Uma mistura simples e deliciosa de vodka com suco de laranja."
   },
   {
     id: 3,
-    fruta: "morango",
-    destilado: "gin",
-    nome: "Strawberry Martini",
-    descricao: "Um martini doce e sofisticado com gin e morango."
+    fruit: "morango",
+    distilled: "gin",
+    name: "Strawberry Martini",
+    description: "Um martini doce e sofisticado com gin e morango."
   },
   {
     id: 4,
-    fruta: "limão",
-    destilado: "gin",
-    nome: "Gin Fizz",
-    descricao: "Um drink efervescente com gin, suco de limão e um toque de açúcar."
+    fruit: "limão",
+    distilled: "gin",
+    name: "Gin Fizz",
+    description: "Um drink efervescente com gin, suco de limão e um toque de açúcar."
   },
   {
     id: 5,
-    fruta: "laranja",
-    destilado: "rum",
-    nome: "Citrus Breeze",
-    descricao: "Uma combinação tropical de rum com o frescor da laranja."
+    fruit: "laranja",
+    distilled: "rum",
+    name: "Citrus Breeze",
+    description: "Uma combinação tropical de rum com o frescor da laranja."
   },
   {
     id: 6,
-    fruta: "morango",
-    destilado: "vodka",
-    nome: "Strawberry Bliss",
-    descricao: "Um drink vibrante com vodka e purê de morango fresco."
+    fruit: "morango",
+    distilled: "vodka",
+    name: "Strawberry Bliss",
+    description: "Um drink vibrante com vodka e purê de morango fresco."
   },
   {
     id: 7,
-    fruta: "limão",
-    destilado: "vodka",
-    nome: "Caipirinha",
-    descricao: "A clássica caipirinha com uma boa pitada de limão!"
+    fruit: "limão",
+    distilled: "vodka",
+    name: "Caipirinha",
+    description: "A clássica caipirinha com uma boa pitada de limão!"
   },
   {
     id: 8,
-    fruta: "laranja",
-    destilado: "gin",
-    nome: "Orange Sunset",
-    descricao: "Um drink aromático com gin e suco de laranja, perfeito para relaxar."
+    fruit: "laranja",
+    distilled: "gin",
+    name: "Orange Sunset",
+    description: "Um drink aromático com gin e suco de laranja, perfeito para relaxar."
   },
   {
     id: 9,
-    fruta: "morango",
-    destilado: "rum",
-    nome: "Berry Rum Delight",
-    descricao: "Rum e morango juntos em uma bebida doce e refrescante."
+    fruit: "morango",
+    distilled: "rum",
+    name: "Berry Rum Delight",
+    description: "Rum e morango juntos em uma bebida doce e refrescante."
   }
 ];
