@@ -19,17 +19,15 @@ E crie o seguinte arquivo para exercício:
 
 ## 🔨 Requisitos
 
-###  Requisito 1 - Criador de Drinks
-Crie a funcionalidade de buscar um drink no array de receitas utilizando o método find.
-- O usuário deve poder selecionar uma fruta e um destilado de dois `<select>`.
-- Ao clicar no botão "Criar Drink", o resultado (nome e descrição do drink ou mensagem de erro) deve ser exibido no DOM.
-
-
-### Requisito 2 - Seleção de alimentos
+### Requisito 1 - Seleção de alimentos
 Crie a funcionalidade para filtrar alimentos por categoria.
 - O usuário deve selecionar uma categoria no dropdown (ex: "Frutas", "Lanches") e os alimentos correspondentes devem ser exibidos dinamicamente.
 - Se a categoria "Todos" for selecionada, todos os alimentos devem ser exibidos.
 
+###  Requisito 2 - Criador de Drinks
+Crie a funcionalidade de buscar um drink no array de receitas utilizando o método find.
+- O usuário deve poder selecionar uma fruta e um destilado de dois `<select>`.
+- Ao clicar no botão "Criar Drink", o resultado (nome e descrição do drink ou mensagem de erro) deve ser exibido no DOM.
 
 ### Requisito 3 - Calculadora de calorias
 Desenvolva uma calculadora de calorias onde ao clicar 
