@@ -30,6 +30,8 @@ Crie a funcionalidade para filtrar alimentos por categoria.
 ###  Requisito 2 - Criador de Drinks
 Crie a funcionalidade de buscar um drink no array de receitas utilizando o método find.
 - O usuário deve poder selecionar uma fruta e um destilado de dois `<select>`.
+- Crie a caixa do drink selecionado pelo o javascript
+- O drink encontrado deve aparecer em uma caixa abaixo dos selects, utilize a classe `drink-item` para o container dos itens e `drink-item-box-texts` para o container dos textos.
 - Ao clicar no botão "Criar Drink", o resultado (nome e descrição do drink ou mensagem de erro) deve ser exibido no DOM.
 
 ### Requisito 3 - Calculadora de calorias
