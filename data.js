@@ -2,25 +2,25 @@ export const foods = [
   { 
     name: 'Maçã', 
     calories: 95, 
-    tipo: 'frutas', 
+    tipo: 'fruits', 
     image: 'https://cdn.pixabay.com/photo/2019/10/27/08/52/apple-4581107_1280.jpg' 
   },
   { 
     name: 'Banana', 
     calories: 105, 
-    tipo: 'frutas', 
+    tipo: 'fruits', 
     image: 'https://cdn.pixabay.com/photo/2017/06/27/22/21/banana-2449019_1280.jpg' 
   },
   { 
     name: 'Frango Grelhado (100g)', 
     calories: 165, 
-    tipo: 'refeições',
+    tipo: 'meals',
     image: 'https://cdn.pixabay.com/photo/2016/08/30/18/45/grilled-1631727_1280.jpg' 
   },
   { 
     name: 'Arroz Cozido (100g)', 
     calories: 130, 
-    tipo: 'refeições',
+    tipo: 'meals',
     image: 'https://cdn.pixabay.com/photo/2012/11/27/03/35/usd-67411_1280.jpg' 
   },
   { 
@@ -50,43 +50,43 @@ export const foods = [
   { 
     name: 'Laranja', 
     calories: 60, 
-    tipo: 'frutas', 
+    tipo: 'fruits', 
     image: 'https://cdn.pixabay.com/photo/2017/01/20/15/06/oranges-1995056_150.jpg' 
   },
   { 
     name: 'Pizza', 
     calories: 505,
-    tipo: 'refeições', 
+    tipo: 'meals', 
     image: 'https://cdn.pixabay.com/photo/2014/04/22/02/56/pizza-329523_1280.jpg' 
   },
   { 
     name: 'Hambúrguer', 
     calories: 440, 
-    tipo: 'refeições', 
+    tipo: 'meals', 
     image: 'https://cdn.pixabay.com/photo/2017/08/22/00/28/burger-2667441_1280.jpg' 
   },
   { 
     name: 'Sushi', 
     calories: 270, 
-    tipo: 'refeições', 
+    tipo: 'meals', 
     image: 'https://cdn.pixabay.com/photo/2017/10/10/11/37/japan-2836904_1280.jpg' 
   },
   { 
     name: 'Sorvete', 
     calories: 470, 
-    tipo: 'sobremesas', 
+    tipo: 'desserts', 
     image: 'https://cdn.pixabay.com/photo/2015/09/05/23/54/ice-cream-926426_1280.jpg' 
   },
   { 
     name: 'Bolo', 
     calories: 470, 
-    tipo: 'sobremesas', 
+    tipo: 'desserts', 
     image: 'https://cdn.pixabay.com/photo/2016/11/22/18/52/cake-1850011_1280.jpg' 
   },
   { 
     name: 'Chocolate', 
     calories: 710, 
-    tipo: 'sobremesas', 
+    tipo: 'desserts', 
     image: 'https://cdn.pixabay.com/photo/2020/12/13/13/30/cinnamon-sticks-5828241_1280.jpg' 
   }
 ];
