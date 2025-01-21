@@ -39,7 +39,8 @@ Desenvolva uma calculadora de calorias onde ao clicar
 - Cada alimento deve ter uma funcionalidade de clique que permita adicioná-lo à contagem total de calorias.
 - Atualizar dinamicamente o valor total de calorias exibido no rodapé da página.
 - Permitir ao usuário remover itens selecionados da contagem total
-
+- Ao renderizar cada alimento, adicione a classe `food-item` ao container de cada.
+  
 > 👀 **Dicas:**
 > O reduce pode te ajudar nesse requisito.
 
