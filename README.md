@@ -21,6 +21,9 @@ E crie o seguinte arquivo para exercício:
 
 ### Requisito 1 - Seleção de alimentos
 Crie a funcionalidade para filtrar alimentos por categoria.
+- Utilize o array `foods` que encontra-se no arquivo `data.js`
+- Mostre os itens do array `data.js` dentro da div `#food-gallery`
+- Cada item deve ter a classe `food-item` 
 - O usuário deve selecionar uma categoria no dropdown (ex: "Frutas", "Lanches") e os alimentos correspondentes devem ser exibidos dinamicamente.
 - Se a categoria "Todos" for selecionada, todos os alimentos devem ser exibidos.
 
