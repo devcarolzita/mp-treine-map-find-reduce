@@ -44,8 +44,17 @@ Desenvolva uma calculadora de calorias onde ao clicar
 > 👀 **Dicas:**
 > O reduce pode te ajudar nesse requisito.
 
+## 🎨 Design Sugerido
+
+Temos uma sugestão de design no Figma. Entretanto, fique à vontade para montar a aplicação conforme a sua criatividade.
+
+### Figma
+
+🔗 [Link do design](https://www.figma.com/community/file/1458939050939229153)
+
 
 ## 👉🏽 Sobre esse mini-projeto
+
 
 ### O que você irá praticar:
 
