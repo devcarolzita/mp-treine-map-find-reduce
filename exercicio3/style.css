@@ -4,7 +4,7 @@
   overflow: hidden;
   padding: 20px;
   background-color: white;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
   margin-top: 20px;
 }
@@ -27,6 +27,7 @@ h1 {
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s;
+  width: 30%;
 }
 
 .food-item:hover {
@@ -34,7 +35,9 @@ h1 {
 }
 
 #selected-foods {
-  margin-bottom: 20px;
+  margin: 20px;
+  display: flex;
+  gap: 20px;
 }
 
 .selected-food {
@@ -45,6 +48,7 @@ h1 {
   margin-bottom: 5px;
   display: inline-block;
 }
+
 .selected-food button {
   color: white;
   border: none;
@@ -52,8 +56,48 @@ h1 {
   background: none;
 }
 
-#total-calories {
+#total-calories,
+.calories {
   font-weight: bold;
   color: #4caf50;
 }
 
+p {
+  margin-bottom: 0 !important;
+}
+
+.selected-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 8px 10px;
+  margin-bottom: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 15%;
+}
+
+.selected-item p {
+  margin: 0;
+  font-weight: 500;
+  color: #333;
+  font-size: 0.5rem;
+}
+
+.selected-item button {
+  background-color: #ff4d4d;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  padding: 6px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 0.6rem;
+}
+
+.selected-item button:hover {
+  background-color: #e63939;
+}
