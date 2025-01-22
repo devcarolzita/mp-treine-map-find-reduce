@@ -19,30 +19,24 @@
   justify-content: space-around;
   margin: 0 auto;
 }
-
 .drinks-selects-box {
   display: flex;
   width: 40%;
   justify-content: space-evenly;
   align-items: center;
 }
-
 .drink-select {
   font-size: 1rem;
   width: 40%;
   border: 2px solid var(--gradient-middle);
   border-radius: 8px;
-
 }
-
 .drink-select select {
   font-size: 1rem;
   border: none;
   background: none;
   color: #586069;
-
 }
-
 .drinks-selects button {
   font-size: 1rem;
   width: 17%;
@@ -52,9 +46,7 @@
   color: #586069;
   background: none;
   cursor: pointer;
-  
 }
-
 .result {
   text-align: center;
   display: flex;
@@ -65,7 +57,6 @@
   background: var(--gradient-middle);
   color: white;
 }
-
 .drink-item {
   background-color: var(--card-background);
   border-radius: 12px;
