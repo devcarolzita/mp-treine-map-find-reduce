@@ -2,25 +2,25 @@ export const foods = [
   { 
     name: 'Maçã', 
     calories: 95, 
-    tipo: 'fruits', 
+    tipo: 'frutas', 
     image: 'https://cdn.pixabay.com/photo/2019/10/27/08/52/apple-4581107_1280.jpg' 
   },
   { 
     name: 'Banana', 
     calories: 105, 
-    tipo: 'fruits', 
+    tipo: 'frutas', 
     image: 'https://cdn.pixabay.com/photo/2017/06/27/22/21/banana-2449019_1280.jpg' 
   },
   { 
     name: 'Frango Grelhado (100g)', 
     calories: 165, 
-    tipo: 'meals',
+    tipo: 'refeições',
     image: 'https://cdn.pixabay.com/photo/2016/08/30/18/45/grilled-1631727_1280.jpg' 
   },
   { 
     name: 'Arroz Cozido (100g)', 
     calories: 130, 
-    tipo: 'meals',
+    tipo: 'refeições',
     image: 'https://cdn.pixabay.com/photo/2012/11/27/03/35/usd-67411_1280.jpg' 
   },
   { 
@@ -50,111 +50,110 @@ export const foods = [
   { 
     name: 'Laranja', 
     calories: 60, 
-    tipo: 'fruits', 
+    tipo: 'frutas', 
     image: 'https://cdn.pixabay.com/photo/2017/01/20/15/06/oranges-1995056_150.jpg' 
   },
   { 
     name: 'Pizza', 
     calories: 505,
-    tipo: 'meals', 
+    tipo: 'refeições', 
     image: 'https://cdn.pixabay.com/photo/2014/04/22/02/56/pizza-329523_1280.jpg' 
   },
   { 
     name: 'Hambúrguer', 
     calories: 440, 
-    tipo: 'meals', 
+    tipo: 'refeições', 
     image: 'https://cdn.pixabay.com/photo/2017/08/22/00/28/burger-2667441_1280.jpg' 
   },
   { 
     name: 'Sushi', 
     calories: 270, 
-    tipo: 'meals', 
+    tipo: 'refeições', 
     image: 'https://cdn.pixabay.com/photo/2017/10/10/11/37/japan-2836904_1280.jpg' 
   },
   { 
     name: 'Sorvete', 
     calories: 470, 
-    tipo: 'desserts', 
+    tipo: 'sobremesas', 
     image: 'https://cdn.pixabay.com/photo/2015/09/05/23/54/ice-cream-926426_1280.jpg' 
   },
   { 
     name: 'Bolo', 
     calories: 470, 
-    tipo: 'desserts', 
+    tipo: 'sobremesas', 
     image: 'https://cdn.pixabay.com/photo/2016/11/22/18/52/cake-1850011_1280.jpg' 
   },
   { 
     name: 'Chocolate', 
     calories: 710, 
-    tipo: 'desserts', 
+    tipo: 'sobremesas', 
     image: 'https://cdn.pixabay.com/photo/2020/12/13/13/30/cinnamon-sticks-5828241_1280.jpg' 
   }
 ];
 
 
-
 export const drinks = [
   {
     id: 1,
-    fruit: "limão",
-    distilled: "rum",
-    name: "Daiquiri",
-    description: "Um clássico refrescante com rum e suco de limão."
+    fruta: "limão",
+    destilado: "rum",
+    nome: "Daiquiri",
+    descricao: "Um clássico refrescante com rum e suco de limão."
   },
   {
     id: 2,
-    fruit: "laranja",
-    distilled: "vodka",
-    name: "Screwdriver",
-    description: "Uma mistura simples e deliciosa de vodka com suco de laranja."
+    fruta: "laranja",
+    destilado: "vodka",
+    nome: "Screwdriver",
+    descricao: "Uma mistura simples e deliciosa de vodka com suco de laranja."
   },
   {
     id: 3,
-    fruit: "morango",
-    distilled: "gin",
-    name: "Strawberry Martini",
-    description: "Um martini doce e sofisticado com gin e morango."
+    fruta: "morango",
+    destilado: "gin",
+    nome: "Strawberry Martini",
+    descricao: "Um martini doce e sofisticado com gin e morango."
   },
   {
     id: 4,
-    fruit: "limão",
-    distilled: "gin",
-    name: "Gin Fizz",
-    description: "Um drink efervescente com gin, suco de limão e um toque de açúcar."
+    fruta: "limão",
+    destilado: "gin",
+    nome: "Gin Fizz",
+    descricao: "Um drink efervescente com gin, suco de limão e um toque de açúcar."
   },
   {
     id: 5,
-    fruit: "laranja",
-    distilled: "rum",
-    name: "Citrus Breeze",
-    description: "Uma combinação tropical de rum com o frescor da laranja."
+    fruta: "laranja",
+    destilado: "rum",
+    nome: "Citrus Breeze",
+    descricao: "Uma combinação tropical de rum com o frescor da laranja."
   },
   {
     id: 6,
-    fruit: "morango",
-    distilled: "vodka",
-    name: "Strawberry Bliss",
-    description: "Um drink vibrante com vodka e purê de morango fresco."
+    fruta: "morango",
+    destilado: "vodka",
+    nome: "Strawberry Bliss",
+    descricao: "Um drink vibrante com vodka e purê de morango fresco."
   },
   {
     id: 7,
-    fruit: "limão",
-    distilled: "vodka",
-    name: "Caipirinha",
-    description: "A clássica caipirinha com uma boa pitada de limão!"
+    fruta: "limão",
+    destilado: "vodka",
+    nome: "Caipirinha",
+    descricao: "A clássica caipirinha com uma boa pitada de limão!"
   },
   {
     id: 8,
-    fruit: "laranja",
-    distilled: "gin",
-    name: "Orange Sunset",
-    description: "Um drink aromático com gin e suco de laranja, perfeito para relaxar."
+    fruta: "laranja",
+    destilado: "gin",
+    nome: "Orange Sunset",
+    descricao: "Um drink aromático com gin e suco de laranja, perfeito para relaxar."
   },
   {
     id: 9,
-    fruit: "morango",
-    distilled: "rum",
-    name: "Berry Rum Delight",
-    description: "Rum e morango juntos em uma bebida doce e refrescante."
+    fruta: "morango",
+    destilado: "rum",
+    nome: "Berry Rum Delight",
+    descricao: "Rum e morango juntos em uma bebida doce e refrescante."
   }
 ];
